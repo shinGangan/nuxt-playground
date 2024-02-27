@@ -1,0 +1,76 @@
+name: "🏗️ ADR Template"
+description: ADR Issue template
+title: "XXX-000: (v0.1.0)"
+labels: ["🏗️ ADR"]
+assignees:
+  - shinGangan
+body:
+  - type: markdown
+    attributes:
+      value: ADR Issue template
+  - type: textarea
+    id: author
+    attributes:
+      label: "abstract"
+      placeholder: 何か
+      value: |
+        # XXX-000: (v0.1.0)
+
+        - Author: @xyz
+        - Reviewers:
+          - none
+        - updated: `2024 / 01 / 01`
+    validations:
+      required: false
+  # Status
+  - type: dropdown
+    id: status
+    attributes:
+      label: Status
+      options:
+        - Draft
+        - Proposed
+        - Accepted
+        - Superseded
+        - Deprecated
+        - Rejected
+    validations:
+      required: false
+  # Context
+  - type: textarea
+    id: context
+    attributes:
+      label: Context
+      placeholder: |
+        説明を記載する。
+    validations:
+      required: false
+  # Decisions
+  - type: textarea
+    id: decisions
+    attributes:
+      label: Decisions
+      placeholder: |
+        説明を記載する。
+    validations:
+      required: false
+  # Consequences
+  - type: textarea
+    id: consequences
+    attributes:
+      label: Consequences
+      placeholder: |
+        説明を記載する。
+      value: Draft
+    validations:
+      required: false
+  # Note
+  - type: textarea
+    id: note
+    attributes:
+      label: Note
+      placeholder: |
+        何かあれば。
+      value: "-"
+    validations:
+      required: false
