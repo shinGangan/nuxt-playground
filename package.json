@@ -1,0 +1,19 @@
+{
+  "name": "@shinGangan/nuxt-playground",
+  "description": "Nuxt playground for me",
+  "private": true,
+  "author": "shinGangan",
+  "license": "MIT",
+  "engines": {
+    "node": ">= 18.0.0 | ^20.0.0",
+    "npm": "🚨 Please use pnpm instead.",
+    "yarn": "🚨 Please use pnpm instead."
+  },
+  "devDependencies": {
+    "@nuxt/devtools": "^1.0.8",
+    "@nuxt/eslint-config": "^0.2.0",
+    "@types/node": "^20.11.24",
+    "eslint": "^8.57.0",
+    "nuxt": "^3.10.3"
+  }
+}
