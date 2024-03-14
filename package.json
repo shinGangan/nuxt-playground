@@ -5,15 +5,20 @@
   "author": "shinGangan",
   "license": "MIT",
   "engines": {
-    "node": ">= 18.0.0 | ^20.0.0",
+    "node": "^20.0.0",
     "npm": "🚨 Please use pnpm instead.",
     "yarn": "🚨 Please use pnpm instead."
+  },
+  "scripts": {
+    "clean": "rimraf playground/**/node_modules playground/**/.nuxt"
   },
   "devDependencies": {
     "@nuxt/devtools": "^1.0.8",
     "@nuxt/eslint-config": "^0.2.0",
     "@types/node": "^20.11.24",
     "eslint": "^8.57.0",
-    "nuxt": "^3.10.3"
+    "npm-run-all2": "^6.1.2",
+    "nuxt": "^3.10.3",
+    "rimraf": "^5.0.5"
   }
 }
