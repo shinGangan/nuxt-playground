@@ -9,13 +9,13 @@ export default withNuxt({
     // - ref: https://github.com/nuxt/eslint/blob/main/packages/eslint-config/src/flat/configs/ignores.ts
     // '**/dist', '**/node_modules', '**/.nuxt', '**/.output',
   ],
-  globals: {
-    ...globals.browser,
-    ...globals.node,
+  languageOptions: {
+    globals: {
+      ...globals.browser,
+      ...globals.node,
+    },
+  },
+  rules: {
+    "@typescript-eslint/explicit-function-return-type": "error",
   },
 });
-// .override("nuxt/typescript", {
-//   rules: {
-//     "@typescript-eslint/explicit-function-return-type": "error",
-//   },
-// });
